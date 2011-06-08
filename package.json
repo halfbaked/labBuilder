@@ -16,8 +16,8 @@
   },
   "dependencies": {
     "nomnom": ">= 0.4.8"
-  }
-  "repository":   {
+  },
+  "repository": {
     "type": "git",
     "url": "git://github.com/halfbaked/labBuilder.git"
   }
