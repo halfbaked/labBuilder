@@ -1,0 +1,6 @@
+[ 
+  { "name": "jquery-1.5.2", "src": "js/jquery-1.5.2.js" },
+  { "name": "underscore-1.1.6", "src": "js/underscore-1.1.6" },
+  { "name": "backbone-master", "src": "js/backbone-master.js" },
+  { "name": "spa", "src": "js/spa.js" }
+]
