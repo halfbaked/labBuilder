@@ -1,0 +1,25 @@
+Lab Builder builds a script loader labBuilder.js that uses lab.js based on a set of files defined in json.
+
+Installation:
+You can install using node package manager as follows:
+
+npm install labBuilder -g
+
+alternatively you can pull the source, and add bin/labBuilder to your PATH
+
+Command Line Usage:
+Run labBuilder --help to see usage in console
+
+Options:
+-lb <url/to/lab.js>, --labjs=<url/to/lab.js>                      Set location from where to download lab.js. Default: cdnjs.com
+-o <labBuilderFile>, --output= <labBuilderFile>                   Specify file to place generated output. Default prints to ./labBuilder.js
+-s </location/of/json/file>, --scripts </location/of/json/file>   Specify where scripts for lab.js to load are located
+-v, --version                                                     Returns labBuilder version
+
+Examples:
+
+labBuilder -s examples/sampleScripts.json -o scriptLoader.js
+
+labBuilder -lb js/lab.js -s examples/sampleScripts.json -o scriptLoader.js
+
+
