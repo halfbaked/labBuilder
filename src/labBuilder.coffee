@@ -53,4 +53,5 @@ template = """
             oDOC.removeEventListener("DOMContentLoaded", handler, false);
             oDOC.readyState = "complete";
         }, false);
+})(window, document);
 """
